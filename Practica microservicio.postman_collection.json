@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "478dee45-6d8e-4ad4-b91a-9742d64659fe",
+		"name": "Practica microservicio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consulta Cliente Nombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8761/cliente/buscar/raul",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8761",
+					"path": [
+						"cliente",
+						"buscar",
+						"raul"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Cliente Provincia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8761/cliente/provincia/Granada",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8761",
+					"path": [
+						"cliente",
+						"provincia",
+						"Granada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Visita Cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8762/visitas/buscarcliente/raul",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8762",
+					"path": [
+						"visitas",
+						"buscarcliente",
+						"raul"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Visita Estado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8762/visitas/buscarestado/pendiente facturar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8762",
+					"path": [
+						"visitas",
+						"buscarestado",
+						"pendiente facturar"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
